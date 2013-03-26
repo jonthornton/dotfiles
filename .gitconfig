@@ -1,0 +1,9 @@
+[user]
+        name = Jon Thornton
+        email = thornton.jon@gmail.com
+[branch]
+        autosetuprebase = always
+[color]
+        ui = auto
+[alias]
+        st = status
