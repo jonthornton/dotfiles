@@ -16,3 +16,4 @@ function parse_git_branch_and_add_brackets {
 
 export PS1="\n\[\033[36m\][\t] \[\033[36m\]\u\[\033[36m\]@\h:\[\033[35m\][\w]\[\033[36m\]\$(parse_git_branch_and_add_brackets) \n:\[\033[0m\] "
 
+alias git-clean='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
